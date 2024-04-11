@@ -1,0 +1,12 @@
+# Basic Stuff
+*.pyc
+__pycache__/
+db.sqlite3
+
+# Project Specific 
+/static/
+/media/
+
+# Environments
+env
+venv/
