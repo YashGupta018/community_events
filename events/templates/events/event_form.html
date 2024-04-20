@@ -1,0 +1,10 @@
+{% extends 'base.html' %}  {# Assuming you have a base template #}
+
+{% block content %}
+    <h1>Create New Event</h1>
+    <form method="post">
+        {% csrf_token %} 
+        {{ form.as_p }}  {# Simple form rendering #}
+        <button type="submit">Create Event</button>
+    </form>
+{% endblock %}
